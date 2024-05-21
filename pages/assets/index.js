@@ -26,7 +26,7 @@ import people03 from "./people03.png";
 
 
 const logos= logo?.src
-export {
+export default {
   airbnb,
   bill,
   binance,
