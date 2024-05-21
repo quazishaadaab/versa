@@ -2,7 +2,7 @@
 const {nextui} = require("@nextui-org/react");
 
 module.exports = {
-  content: ["./index.html", "./pages/**/*.{js,jsx}", 
+  content: ["./index.html", "./pages/**/*.{js,jsx}","./components/**/*.{js,jsx}", 
 ,  "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
 ],
   mode: "jit",
