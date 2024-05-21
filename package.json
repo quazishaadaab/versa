@@ -2,6 +2,7 @@
   "name": "versa",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +10,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/input": "^2.1.21",
+    "@nextui-org/react": "^2.3.6",
+    "@supabase/supabase-js": "^2.21.0",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^7.23.0",
+    "framer-motion": "^11.1.9",
     "next": "14.2.3",
+    "postcss": "^8.4.14",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "tailwindcss": "^3.4.3",
+    "vite": "^3.2.10"
   },
   "devDependencies": {
-    "eslint": "9.2.0",
-    "eslint-config-next": "14.2.3"
+    "@types/react": "18.3.1",
+    "eslint-config-next": "14.2.3",
+    "typescript": "5.4.5"
   }
 }
